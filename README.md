@@ -17,7 +17,7 @@ A Python library for fetching Pakistan Stock Exchange (PSX) data, similar to yfi
 pip install pypsx
 
 # Install from source
-git clone https://github.com/yourusername/pypsx.git
+git clone https://github.com/amaanjbutt/pyPSX.git
 cd pypsx
 pip install -e .
 ```

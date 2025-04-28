@@ -4,8 +4,8 @@ A Python library for fetching Pakistan Stock Exchange (PSX) data, similar to yfi
 
 ## Features
 
-- Fetch real-time intraday data
-- Get historical OHLCV data
+- Fetch real-time intraday data from PSX API
+- Get historical OHLCV data from PSX API
 - Support for multiple symbols
 - Clean pandas DataFrame output
 - Error handling and retries
@@ -18,7 +18,7 @@ pip install pypsx
 
 # Install from source
 git clone https://github.com/amaanjbutt/pyPSX.git
-cd pypsx
+cd pyPSX
 pip install -e .
 ```
 
@@ -72,6 +72,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Inspired by yfinance
 - Uses PSX website data
 - Built with pandas and requests 
